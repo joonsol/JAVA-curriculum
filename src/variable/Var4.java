@@ -1,6 +1,6 @@
-package var;
+package variable;
 
-public class Var3 {
+public class Var4 {
     public static void main(String[] args) {
         byte b = 127; // byte 범위 내 값
         short s = 32767; // short 최대값
