@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/JAVA-curriculum.iml" filepath="$PROJECT_DIR$/JAVA-curriculum.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/new-prj-2025-04.iml" filepath="$PROJECT_DIR$/new-prj-2025-04.iml" />
+>>>>>>> 4147896bad32d42cf1c308b6b32e916f7e19d88d
     </modules>
   </component>
 </project>
