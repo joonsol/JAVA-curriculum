@@ -1,11 +1,18 @@
 package conditional;
 
+import java.util.Scanner;
+
 public class Conditional1_Ex5 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        int price = 19800;
+        System.out.println("가격을 입력하세요");
+        int price = sc.nextInt();
 
-        int age = 9;
+
+        System.out.println("나이를 입력하세요");
+        int age = sc.nextInt();
+
 
         int discount = 0;
 

@@ -1,8 +1,15 @@
 package conditional;
 
+import java.util.Scanner;
+
 public class Conditional4 {
     public static void main(String[] args) {
-        String fruit = "사과";
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("과일을 입력하세요");
+
+        String fruit = sc.next();//string만
 
         switch (fruit) {
             case "사과":

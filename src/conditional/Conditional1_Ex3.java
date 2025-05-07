@@ -1,9 +1,13 @@
 package conditional;
 
+import java.util.Scanner;
+
 public class Conditional1_Ex3 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        int num = 0;
+        System.out.println("숫자를 입력하세요");
+        int num = sc.nextInt();
 
         if (num > 0) {
             System.out.println("양수입니다.");
