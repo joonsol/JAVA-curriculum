@@ -4,31 +4,33 @@ import java.util.Scanner;
 
 public class ArrayEx2 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
-        int[] scores = new int[5];
-        int total = 0;
+        int[] arr = new int[5];
+        System.out.println("학생 점수 입력하세요");
+        int sum = 0;
         double avg = 0;
 
-        for (int i = 0; i < scores.length; i++) {
-            System.out.println((i + 1) + "번째 점수 입력");
-            scores[i] = sc.nextInt();
 
-            total += scores[i];
-
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(i + 1 + "번 평균");
+            arr[i] = sc.nextInt();
+            sum += arr[i];
         }
-        System.out.println("평균 구하기");
-
-        avg = total / scores.length;
+        avg = sum / arr.length;
         int count = 0;
+        for (int i = 0; i < arr.length; i++) {
 
-        for (int score : scores) {
-
-            if (score >= avg) {
+            if (arr[i] > avg) {
                 count++;
             }
+
         }
-            System.out.println("평균" + avg);
-            System.out.println("평균 이상 학생수 : " + count+"명");
+
+        System.out.println("평균 점수: "+avg+"점");
+        System.out.println("평균 이상인 학생 수: "+ count+"명");
+
+
     }
 }
